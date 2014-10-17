@@ -1,0 +1,116 @@
+/* Turn the links red */
+/*don't forget the semicolon!!*/
+a {
+	color: red;
+}
+
+/* Make the name 36px font and italicized */
+h1 {
+	font-family: "Lobster", arial;
+	font-size: 48px;
+	font-style: bold;
+	border: 0px solid red;
+	width: 500px;
+	margin: 0px;
+	padding: 0px;
+
+}
+
+/*using a header id to convert all headers with id = hello...there can only be one instance of the id*/
+
+h1#hello {
+	color: blue;
+}
+
+h1#mellowyellow {
+	color: yellow;
+}
+
+/*using a class id is like using a header id but will apple to all instances in code*/
+h1.hey {
+	color: purple;
+}
+
+/* Make the section headers (e.g. Summary, Experience) 26px font */
+h4 {
+	font-size: 26px;
+}
+
+/* Make the job descriptions (e.g. Co-Owner, A1A Car Wash) blue and 20px font */
+h5 {
+	font-size: 20px;
+	color: blue;
+	}
+
+/* Put a border around the photo, set it to the right */
+img {
+	border: 8px solid black;
+	border-radius: 45px;
+	box-shadow: 5px 5px 5px black;
+	float: right;
+
+}
+
+
+/* Set the font family for the whole document, and add a background image */
+body {
+	font-family: "Droid Sans", arial;
+	color: gray;
+	background-image: url(background.JPG);
+	background-size: cover;
+	background-position: center center;
+	background-attachment: fixed;
+}
+
+/* Give the paragraphs and lists a 26px line height */
+p, li {
+	line-height: 26px;
+}
+
+/* Make the links purple when I put my mouse over it */
+a:hover {
+	color: purple;
+}
+
+
+/* Make the content of the page "sit on top of" the background */
+div#wrapper {
+		background-color: rgba(255,255,255,0.45);
+		width: 960px;
+		margin: 50px auto;
+		padding: 25px;
+
+}
+
+/* Make it so you can see the footer and center it */
+div#footer {
+	color: white;
+	margin: 30px auto;
+	padding: 10px;
+	text-align: center;
+}
+
+
+
+/*video rotation*/
+video{
+  -moz-transform:rotate(90deg);
+  -webkit-transform:rotate(90deg);
+  -o-transform:rotate(90deg);
+  -ms-transform:rotate(90deg);
+  transform:rotate(80deg);
+}
+
+td {
+    text-align: center;
+    font-size: 12px;
+}
+
+th {
+	font-family: "Lobster", arial;
+	font-style: bold;
+}
+
+.jumbotron {
+	background-color: #53C5C5F;
+}
