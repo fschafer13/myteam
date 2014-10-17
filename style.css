@@ -10,9 +10,10 @@ h1 {
 	font-size: 48px;
 	font-style: bold;
 	border: 0px solid red;
-	width: 500px;
+	/*width: 500px;*/
 	margin: 0px;
 	padding: 0px;
+	color: red;
 
 }
 
@@ -34,6 +35,7 @@ h1.hey {
 /* Make the section headers (e.g. Summary, Experience) 26px font */
 h4 {
 	font-size: 26px;
+	color: red;
 }
 
 /* Make the job descriptions (e.g. Co-Owner, A1A Car Wash) blue and 20px font */
@@ -44,10 +46,8 @@ h5 {
 
 /* Put a border around the photo, set it to the right */
 img {
-	border: 8px solid black;
-	border-radius: 45px;
-	box-shadow: 5px 5px 5px black;
-	float: right;
+	border: 45px ;
+
 
 }
 
@@ -64,7 +64,7 @@ body {
 
 /* Give the paragraphs and lists a 26px line height */
 p, li {
-	line-height: 26px;
+	line-height: 48px;
 }
 
 /* Make the links purple when I put my mouse over it */
